@@ -68,12 +68,7 @@ case
 end as avg_monthly_revenue
 from cte2;
 
-
-
-
 -- Customer report
-
-
 
 CREATE view gold.report_customers as
 with base_query as (
